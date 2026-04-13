@@ -62,12 +62,13 @@ Component Prop Typing: All reusable components (like Button and UserTable) use T
 │   ├── globals.css          # Tailwind directives & global styles
 │   ├── layout.tsx           # Root layout with DM Sans font
 │   ├── page.tsx             # Main dashboard (User listing)
-│   └── user/[id]/           # Dynamic Route
-│       └── page.tsx         # Detailed User Profile
+│   └── user/
+│       └── [id]/            # Dynamic Route
+│           └── page.tsx     # Detailed User Profile
 ├── components/
-│   └── UserDataTable.tsx    # Optimized Table Component
-├── ui/
-   ├── Button.tsx           # Reusable Action Button
+│   ├── UserDataTable.tsx    # Optimized Table Component
+│   └── ui/
+│       └── Button.tsx       # Reusable Action Button
 ├── types/
 │   ├── User.ts              # Base User interfaces
 │   ├── UserDetail.ts        # Extended User interfaces
