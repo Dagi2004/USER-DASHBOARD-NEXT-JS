@@ -12,3 +12,7 @@ export interface Address{
     city: string;
     zipcode: string;
 }
+
+ export interface TableData{
+    users:UserData[]
+}
