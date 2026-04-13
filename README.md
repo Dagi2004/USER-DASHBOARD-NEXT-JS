@@ -16,12 +16,13 @@ npm install
 3. Configuration
 Ensure you have the tailwind.config.ts and postcss.config.js files in your root directory.
 tailwind.config.ts:
-const config = {
+
+# const config = {
   plugins: {
     "@tailwindcss/postcss": {},
   },
 };
-dxport default config;
+export default config;
 
 4. Running the Project
 Start the development server:
