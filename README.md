@@ -28,7 +28,7 @@ Start the development server:
 npm run dev
 
 # Architecture Decisions
-1. Framework: Next.js (App Router)
+# 1. Framework: Next.js (App Router)
 I chose the Next.js App Router over the Pages Router for several reasons:
 
 - Server Components: Reduces the amount of JavaScript sent to the client, improving load times.
