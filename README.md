@@ -16,19 +16,20 @@ npm install
 3. Configuration
 Ensure you have the tailwind.config.ts and postcss.config.js files in your root directory.
 tailwind.config.ts:
-const config = {
+
+# const config = {
   plugins: {
     "@tailwindcss/postcss": {},
   },
 };
-dxport default config;
+export default config;
 
 4. Running the Project
 Start the development server:
 npm run dev
 
 # Architecture Decisions
-1. Framework: Next.js (App Router)
+# 1. Framework: Next.js (App Router)
 I chose the Next.js App Router over the Pages Router for several reasons:
 
 - Server Components: Reduces the amount of JavaScript sent to the client, improving load times.
